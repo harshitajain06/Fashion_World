@@ -51,7 +51,7 @@
 
 > Here is a link to deployed project.
 
-- [Live Demo Link](https://harshitajain06.github.io/Capstone_Project/)
+- [Live Demo Link](https://harshitajain06.github.io/Capstone-1/)
 
 > Here is a link to video.
 
@@ -71,7 +71,7 @@ To get a local copy up and running, follow these steps.
 
 Clone this repository to your desired folder:
 
-  git clone https://github.com/harshitajain06/Capstone_Project.git
+  git clone https://github.com/harshitajain06/Capstone-1.git
 
 
 ### Run 
