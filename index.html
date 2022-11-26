@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/b9a7923e8d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+   <header class="border-b shadow-xl">
+    
+   
+    <div class="hidden md:flex justify-end gap-10 font-bold pb-[10px] pt-[10px] pr-[170px] text-white bg-[#272a31]">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <span>English</span>
+        <span>My Page</span>
+        <span>Logout</span>
+    </div>
+    <nav class="hidden md:flex items-center justify-between px-[12vw]  font-semibold">
+        <img class="w-[300px]" src="./assets/logo.png" alt="logo-image"/>
+        <ul class="flex items-center gap-10" >
+            <li class="text-orange-600"><a href="about.html">About</a></li>
+            <li><a href ="#">Program</a></li>
+            <li><a href ="#">Join</a></li>
+            <li><a href ="#">Sponsor</a></li>
+            <li><a href ="#">News</a></li>
+            <button class="ml-[4vw] p-2 border-4 border-orange-600">Fasion Wear</button>
+        </ul>
+
+    </nav>
+     <div class="mobile-menu md:hidden absolute top-4">
+      <i id="active-menu" class="absolute top-[-5px] left-4 fa-2x fa-solid fa-bars md:hidden"></i>
+    </div>
+    <div id="hamburger-menu" class="md:hidden absolute hidden h-[100%] w-[100%] bg-[#272a31] text-center justify-center">
+      <i id="close-menu" class="absolute text-white top-4 left-4 fa-2x fa-solid fa-xmark"></i>
+      <ul class="flex flex-col justify-center gap-6">
+        <li><a class="text-white text-[6vw] underline underline-offset-8" href="./about.html">About</a></li>
+        <li><a class="text-white text-[6vw] underline underline-offset-8" href="#">Join</a></li>
+        <li><a class="text-white text-[6vw] underline underline-offset-8" href="#">Sponsar</a></li>
+        <li><a class="text-white text-[6vw] underline underline-offset-8" href="#">News</a></li>
+      </ul>
+    </div>
+   </header>
+
+   <section class="background flex" >
+    <div class="flex gap-8 flex-col justify-center pt-[100px] pl-[40px] md:pl-[80px]">
+        <h3 class="text-4xl text-[#f85c37]">"Hello! Fasion World"</h3>
+        <h1 class="text-6xl">FASION CONFERENCE <br>2023</h1>
+        <p class="text-[15px] font-semibold bg-transparent text-[#6f6f6f]">Joining 1000+ cloth manufacturers globally 
+            to share the latest manufacturing techniques, ideas and creativity in February 2023 
+            in Delhi, the capital city of India.</p>
+        <h2 class="font-[900] text-4xl text-[#585858]">2023.02.13 (MON) ~ 15 (WED)</h2>
+        <h4 class="text-[#848484]">@ American Centre Auditorium , Delhi</h4>
+    </div>
+    <div>
+        <img class="hidden md:block w-96" src="./assets/fabricss-removebg-preview (1) (2).png"/>
+    </div>
+
+   </section>
+   
+   <section class="background1">
+    <div class="decoration-[#ec5242] underline decoration-1 underline-offset-[20px] font-semibold text-4xl text-center text-[#d3d3d3] pt-[100px]">Main Program</div>
+    <div class="md:flex-row flex-col flex p-[8vw] justify-between gap-2">
+        <div class="card md:flex-col flex-row flex items-center justify-center">
+          <img src="icons/conference-icon.png" alt="conference">
+          <h3 class="text-[#ec5242]">Lecture</h3>
+          <p>Listen to lectures from speakers and learn about the latest trends about JavaScript.
+          </p>
+        </div>
+
+        <div class="card md:flex-col flex-row flex items-center justify-center">
+            <img src="icons/schedule-icon.png" alt="Exhibition">
+          <h3 class="text-[#ec5242]">Projects</h3>
+          <p>
+            See the projects of different developers on different JS frameworks.
+            </p>
+        </div>
+
+        <div class="card md:flex-col flex-row flex items-center justify-center">
+            <img src="icons/chat-icon.png" alt="Forum">
+          <h3 class="text-[#ec5242]">Forum</h3>
+          <p>
+            Share our thoughts, questions and opinions with different JS experts by topic.
+            </p>
+        </div>
+
+        <div class="card md:flex-col flex-row flex items-center justify-center">
+            <img src="icons/main-event-icon.png" alt="Workshop">
+          <h3 class="text-[#ec5242]">Workshop</h3>
+          <p>
+          You will be having the opportunity to create your own projects using open source.
+          </p>
+        </div>
+
+        <div class="card md:flex-col flex-row flex items-center justify-center">
+            <img src="icons/ignite-icon.png" alt="ignite">
+          <h3 class="text-[#ec5242]">Network</h3>
+          <p>
+            Grab the opportunity to network with JavaScript experts.
+            </p>
+        </div>
+    </div>
+    <div class="hidden md:block decoration-[#d3d3d3] underline decoration-1 font-semibold text-xl text-center text-[#d3d3d3] pb-[70px]"><a href="#">SEE THE WHOLE PROGRAM</a></div>
+    <button class =" md:hidden text-[20px] border-gray-700 m-[60px] border-2 box-border pl-10 pr-10  p-2 text-white bg-[#ff4f38]" type="button">Join Fasion World Conference</button>
+    </section>
+
+    <section>
+            <div class="decoration-[#ec5242] underline decoration-1 underline-offset-[20px] font-semibold text-4xl text-center text-[#000000] pt-[100px]">Featured Speakers</div>
+        </div>
+
+        <div id ="speakers" class="grid grid-cols-1 md:grid-cols-2 gap-10 justify-center py-20 px-10 md:px-36">
+            </div>
+        
+            <div class="md:hidden flex items-center justify-center items-stretch mb-[20px] p-4"> 
+            <button class ="border-gray-700 border-2 box-border pl-32 pr-32  p-4" id ="more" type="button">More<span><i class=" text-red fa-solid fa-angle-down"></i></span></button>
+        </div>
+        <div class="md:hidden flex items-center justify-center items-stretch mb-[20px] p-4"> 
+            <button class ="border-gray-700 border-2 box-border pl-32 pr-32  p-4" id ="less" type="button">Less<span><i class=" text-red fa-solid fa-angle-down"></i></span></button>
+        </div>
+        
+       
+    </section>
+
+    <section id="sponsor" class="partners">
+        <h2 class="text-center decoration-[#ec5242] underline decoration-1 underline-offset-[20px]">Partners</h2>
+        <div class="underline"></div>
+        <div class="partner-logos md:flex-row flex-col">
+          <div class="logos-center logos-img">
+            <a href="https://www.mozilla.org/en-US/firefox/"><img src="./partners-images/mozilla.png" alt="mozilla"></a>
+            <a href="https://www.google.com/"><img src="./partners-images/Google.png" alt="google"></a>
+            <a href="https://www.naver.com/"><img src="./partners-images/navar.png" alt="naver"></a>
+          </div>
+          <div class="logos-center logos-img">
+            <a href="http://www.kakaocorp.com/"><img src="./partners-images/daumkakao.svg" alt="daumkakao"></a>
+            <a href="https://www.airbnb.com/"><img src="./partners-images/airbnb.png" alt="iairbnb"></a>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-contents px-[50px] md:px-[80px]">
+          <div class="logo"><img src="./assets/logo.png" alt="logo"></div>
+          <div class="copyright text-[14px]"><h4>&copy; 2022 Fasion Conference</h4>
+        <p class="text-[10px] ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+         </div>
+
+        </div>
+      </footer>
+    </div>
+   
+<script src="main.js"></script>
+</body>
+</html>

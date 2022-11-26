@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <script src="https://kit.fontawesome.com/1f634f9b31.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="about.css">
+</head>
+<body>
+  <div class="half-01">
+    <header>
+      <nav>
+        <div class="top-nav text-white">
+          <ul>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <li><a href="#">English</a></li>
+            <li><a href="#">My Page</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+        </div>
+        <div class="main-nav">
+            <img class="w-[300px]" src="./assets/logo.png" alt="logo-image"/>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Program</a></li>
+            <li><a href="#sponsor">Sponsor</a></li>
+          </ul>
+        </div>
+        <div>
+            <div class="mobile-menu md:hidden absolute top-4">
+                <i id="active-menu" class="absolute top-[-5px] left-4 fa-2x fa-solid fa-bars md:hidden"></i>
+              </div>
+              <div id="hamburger-menu" class="md:hidden absolute hidden h-[100%] w-[100%] bg-[#272a31] text-center justify-center">
+                <i id="close-menu" class="absolute text-white top-4 left-4 fa-2x fa-solid fa-xmark"></i>
+                <ul class="flex flex-col justify-center gap-6">
+                  <li><a class="text-white bg-transparent text-[6vw] underline underline-offset-8" href="./index.html">Home</a></li>
+                  <li><a class="text-white bg-transparent text-[6vw] underline underline-offset-8" href="#">Join</a></li>
+                  <li><a class="text-white bg-transparent text-[6vw] underline underline-offset-8" href="#">Sponsar</a></li>
+                  <li><a class="text-white bg-transparent text-[6vw] underline underline-offset-8" href="#">News</a></li>
+                </ul>
+              </div>
+      </nav>
+    </header>
+    <section class="pt-12 background headline-section">
+      <div class="headline-content">
+        <p class="main-color">"Hello! Fasion World"</p>
+        <h1 class="text-center main-color"> FASION CONFERENCE 2023</h1>
+        <div class="description-container">
+          <p class="text-center">Joining 1000+ cloth manufacturers globally 
+            to share the latest manufacturing techniques, ideas and creativity in February 2023 
+            in Delhi, the capital city of India.</p>
+        </div>
+        <div class="contact text-center">
+          <p>Please contact us for further questions about
+            Fasion World Conference 2023!</p>
+          <a href=""><i class="fa-brands fa-whatsapp"></i><p><u>+91 9756503875</u></p></a>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+  <div class="half-02">
+    <section class="logo-competition">
+      <h2 class="text-center"> FASION CONFERENCE 2023</h2>
+      <div class="underline"></div>
+      <p class="text-center">The logo of Fasion World Conference 2023, was decided through competition held from 7th to 9th July.</p>
+      <div class="conference-logo">
+        <img src="./assets/logo.png" alt="">
+      </div>
+    </section>
+    <section class="past-events">
+      <h2 class="text-center">See the past Fasion World Conferences</h2>
+      <div class="underline"></div>
+      <p class="text-center">Take a look at the recent Fasion World Conferences.</p>
+      <div class="past-events-img">
+        <div class="past-event-card-1 text-style">
+          <div class="color-overlay">
+          <h3 class="text-center">2019</h3>
+          <p class="text-center text-white z-10">Fasion World Conference 2019</p>
+        </div>
+        </div>
+        <div class="past-event-card-2 text-style">
+          <div class="color-overlay">
+          <h3 class="text-center">2020</h3>
+          <p class="text-center">Fasion World Conference 2020</p>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section id="sponsor" class="partners text-center">
+      <h2>Partners</h2>
+      <div class="underline"></div>
+      <div class="partner-logos">
+        <div class="logos-center logos-img">
+          <a href="https://www.mozilla.org/en-US/firefox/"><img src="./partners-images/mozilla.png" alt="mozilla"></a>
+          <a href="https://www.google.com/"><img src="./partners-images/Google.png" alt="google"></a>
+          <a href="https://www.naver.com/"><img src="./partners-images/navar.png" alt="naver"></a>
+        </div>
+        <div class="logos-center logos-img">
+          <a href="http://www.kakaocorp.com/"><img src="./partners-images/daumkakao.svg" alt="daumkakao"></a>
+          <a href="https://www.airbnb.com/"><img src="./partners-images/airbnb.png" alt="iairbnb"></a>
+        </div>
+      </div>
+    </section>
+    <footer>
+        <div class="footer-contents px-[50px] md:px-[80px]">
+            <img class="w-[300px]" src="./assets/logo.png" alt="logo-image"/>
+          <div class="copyright text-[14px]"><h4>&copy; 2022 Fasion Conference</h4>
+        <p class="text-[10px] ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+         </div>
+
+        </div>
+      </footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
